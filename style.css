@@ -10,7 +10,7 @@ header{
     height: 80PX;
     width: 100%;
     
-
+    
 }
 
  
@@ -56,36 +56,30 @@ a{
     margin-right: 100px;
 
 }
-/* .icon{ */
-    /* margin-top: 20px; */
-    /* font-size: 30px; */
-/* } */
+
 .container{
-    position: absolute;
+    
     width: 100%;
     height: 80px;
     background-color: #082a1b;
     text-align: end;
     
     
-}
-.know{
-    width: 80px;
-    position: relative;
-    font-size: 14px;
-    border: 1px solid; 
-    border-radius: 20px;
-    border-color: rgb(246, 241, 241);
-    font-family: inherit;
-    padding: 5px; 
-    padding-right: 10px;
-    padding-left: 20px;
-    margin-right: 100px;
-    margin-top: 25px;
-    color: white;
-    background-color: rgb(16, 60, 16);
     
+}
 
+.buttonknow{
+    margin-right: 70px;
+    margin-top: 20px;
+    background-color: #082a1b;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    border-color: white;
+    border-width: 1px;
+    padding: 9px;
+    cursor: pointer
 }
 .first-session{
     color: rgb(232, 103, 56);
@@ -224,8 +218,7 @@ h2{
     
     height: 100px;
     width: 80px;
-   
-    border-radius: 40px;
+    border-radius: 48px;
     
 }
 .DRINK{
@@ -241,7 +234,11 @@ h2{
     color: white;
     font-family: Arial, sans-serif;
 } */
-
+.third-session{
+    background-color: #edebe9;
+    width: 100%;
+    height: 300px;
+}
 .third-heading {
     font-size: 24px;
     margin-bottom: 20px;
@@ -254,6 +251,9 @@ h2{
     gap: 20px;
     
     padding-left: 109px;
+    /* position: relative; */
+
+
 }
 
 .swiper {
@@ -265,26 +265,32 @@ h2{
     text-align: left; /* Align text to the left */
     padding: 10px;
     height: 139px;
+    /* position: absolute;  */
 }
 
 .item-img {
     width: 100px;
-    height: 120px;
+    height: 80px;
     border-radius: 8px;
     object-fit: cover;
 } 
 
 .item-img-container {
-    position: relative;
+    position: relative; 
     text-align: left;
+    display: flex;
 }
 
 .item-text {
     position: absolute;
-    bottom: 10px;
+    background-color: #082a1b;
+    /* bottom: 10px; */
+    /* padding-top: 10px; */
+    /* margin-left: 20px; */
     left: 100px;
     background: rgba(255, 255, 255, 0.8);
     padding: 5px;
+    /* width: 50px; */
     border-radius: 5px;
 }
 
@@ -292,7 +298,7 @@ h2{
     width: 20px;
     height: 20px;
     margin-right: 5px;
-    margin-bottom: 20px;
+     /* margin-bottom: 20px;  */
     margin-left: 5px;
 }
 
@@ -302,11 +308,14 @@ h2{
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
+    /* padding-top: 20px; */
+    /* margin-bottom: 50px; */
     font-size: 14px;
     /* cursor: pointer; */
-    display: block; 
+    /* display: block;  */
     margin: 10px ;
-    margin-left: 295px;
+    margin-left: 280px;
+    width: 85px;
     /* margin-bottom: 100px; */
     position: absolute;
 
@@ -315,6 +324,7 @@ h2{
 .add-item:hover {
     background-color: darkgreen;
 }
+
 .fourth-session{
     background-color: #edebe9;
     width: 100%;
@@ -346,9 +356,10 @@ h2{
     height: 80px;
 
 }
- h5,h6 {
+ h4,h6 {
     margin: 5px 0; /* Minimize spacing between headings */
 }
+
 .text{
     font-size: 15px;
     height: 70px;
@@ -374,10 +385,10 @@ h2{
     position: absolute;
 }
 .last-session{
-    background-color: blueviolet;
+    background-color: #0e382c;
     width: 100%;
-    height: 800px;
-    /* margin-top: 40px; */
+    height: 530px;
+    margin-top: 40px; 
 }
 .end{
     height: 100%;
@@ -404,48 +415,96 @@ h2{
     width: 275px;
     height: 100%;
     margin-top: 145px;
+    color: white;
 }
 .responsibility{
     width: 275px;
     height: 100%;
     margin-top: 145px;
+    color: white;
 }
 .quik-links{
     width: 275px;
     height: 100%;
     margin-top: 145px;
+    color: white;
 }
-/* .social-media{
-    width: 275px;
-    height: 100%;
-    margin-top: 145px;
-} */
-.apple-android{
-    width: 275px;
-    height: 100%;
-    margin-top: 145px;
-}
-
-
-/* .social-media i {
-    font-size: 24px; /* Adjust size as needed */
-    /* margin: 0 10px; Adds space between the icons */
-    /* color: #333; Optional: Set the color of the icons */
-/* } */ 
-
-/* Optionally adjust the social media section */
 .social-media {
-    text-align: center; /* Centers the content */
+    text-align: center;
     margin-top: 20px;
-    background-color: green;
+    /* background-color: green; */
     font-size: 20px;
-    width: 275px;
+    width: 260px;
     height: 100%;
+    color: white;
+
+}
+.social-media h3 {
+    /* margin-bottom: 15px;  */
+     font-size: 17px; 
+     margin-top: 80px;
+
+    
+}
+.social-media i {
+    font-size: 30px; 
+    margin: 0 10px; 
+} 
+p{
+    font-size: 14px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    font-weight: lighter;
+    
+}
+.apple-android-logo{
+    width: 180px;
+    height: 100%;
+    margin-top: 170px;
+    
+}
+.apple-store{
+    height: 55px;
+    width: 150px;
+}
+.android-playstore{
+    height: 55px;
+    width: 150px;
+}
+.line{
+    height: 1px;
+    font-family:SoDoSans_Light,Helvetica,sans-serif!important; ;
 
 }
 
-/* .social-media h3 {
-    margin-bottom: 15px; /* Add spacing between heading and icons */
-    /* font-size: 18px; Adjust heading size */
-    /* color: #444; Optional: Heading color */
-/* } */ 
+.end-line-session{
+    width: 1440px;
+    height: 150px;
+    background-color:#0e382c;
+    margin-top: 0px; 
+    display: flex;
+    
+
+}
+.firstlast{
+    display: flex;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.end-line{
+    height: 18px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.last-sentence{
+    margin-left: 30px;
+    font-size: 13px;
+    color: white;
+}
+.last{
+    margin-left: 500px;
+}
+h3{
+    font-size: 20px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+}
